@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Karine Silveira | Sites Criativos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/informacao.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+  <h2>Karine silveira</h2>
+
+  <div class="menu-toggle" id="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav class="nav" id="nav">
+    <a href="index.html">Home</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#portfolio">Projetos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<section  class="hero">
+  <div class="hero-text">
+    <a href="index.html">&larr; voltar</a>
+    <span class="linguagens">Projeto Acadêmico</span>
+    <h1>Irrigação Automática</h1>
+    <p><b>2023 a 2024</b></p>
+    <p>Desenvolvedora web apaixonada por criar soluções criativas e funcionais.</p>
+  </br>
+
+    <div class="info-cards">
+
+    <div class="info-card">
+        <h3>Minha função</h3>
+        <p>Desenvolvimento do site institucional.</p>
+    </div>
+
+    <div class="info-card">
+        <h3>Tecnologias</h3>
+        <p>HTML, CSS, JavaScript, Arduino e Power BI.</p>
+    </div>
+
+</div>
+
+ </div>
+  <img src="./img/irrigacao.png" alt="Softyx">
+</section>
+
+ <!--Skills -->
+      <section id="skils">
+  <div class="skills">
+
+    <!-- CARD 1 -->
+    <div class="card-skill">
+      <h3>O Problema </h3>
+      <hr>
+       <p>A irrigação</p>
+       <img src="">
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="card-skill">
+      <h3>A Solução </h3>
+      <hr>
+       <p>A irrigação</p>
+       <img src="">
+    </div>
+
+    <!-- CARD 3 -->
+  <div class="card-skill">
+      <h3>Resultado</h3>
+      <hr>
+       <p>A irrigação</p>
+       <img src="">
+    </div>
+    
+    </div>
+</section>
+
+<section id="portfolio">
+    <h2>Galeria do Projeto</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="card-image">
+                <img src="img/maquete.jpg" alt="Maquete">
+            </div>
+            <h3>Maquete Física</h3>
+            <p>Protótipo da estufa com sistema de irrigação automatizado.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="img/site.png" alt="Site">
+            </div>
+            <h3>Site Institucional</h3>
+            <p>Interface desenvolvida para apresentar o projeto.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="img/codigo.png" alt="Código">
+            </div>
+            <h3>Programação</h3>
+            <p>Trechos do código HTML, CSS, JavaScript e Arduino.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="img/arduino.jpg" alt="Arduino">
+            </div>
+            <h3>Arduino</h3>
+            <p>Montagem do circuito eletrônico do sistema.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="img/apresentacao.jpg" alt="Apresentação">
+            </div>
+            <h3>Apresentação</h3>
+            <p>Exposição do projeto durante a feira técnica.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contato" class="contato">
+  <h2>Estou aberta a novas oportunidades</h2>
+  <p>Desenvolvimento,análise de dado ou automação - vamos conversar.</p>
+  <ul>
+    <li>Desenvolvimento</li>
+  </ul>
+</section>
+
+<footer>
+  © 2025 Karine Silveira • Todos os direitos reservados
+</footer>
+
+<script>
+const menuToggle = document.getElementById("menu-toggle");
+const nav = document.getElementById("nav");
+
+menuToggle.addEventListener("click", () => {
+  menuToggle.classList.toggle("active");
+  nav.classList.toggle("active");
+});
+</script>
+
+</body>
+</html>
